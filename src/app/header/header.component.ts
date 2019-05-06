@@ -8,7 +8,7 @@ import { ConfigService } from '../config.service';
 })
 export class HeaderComponent implements OnInit {
 
-  header = {  }
+  header = {};
 
   constructor(private config: ConfigService) { }
 
